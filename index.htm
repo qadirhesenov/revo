@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+    
+</style>
+</head>
+<body>
+<div class="common" style="position: relative;">
+    <div class="toggle ">
+        <div class="container">
+            <div class="button">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <hr>
+                <li><a href="#">SHOP</a></li>
+                <hr>
+                <li><a href="#">COLLECTION</a></li>
+                <hr>
+                <li><a href="#">ACCESSORIES</a></li>
+                <hr>
+                <li><a href="#">LAYOUT</a></li>
+                <hr>
+                <li><a href="#">BLOG</a></li>
+                <hr>
+                <li><a href="#">CONTACT</a></li>
+                <hr>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-top">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-6 d-flex align-items-center">
+                        <div class="demo"></div>
+                    </div>
+                    <div class="col-6 d-flex align-items-center justify-content-end h-100">
+                        <ul class="menu">
+                            <button class="button1" type="button">AZ</button>
+                            <li><a href="#" class="ha"><i class="fa fa-lock me-2 "></i>Sign In</a></li>
+                            <li><a href="#" class="ha"><i class="fa fa-gift me-2 "></i>Gift Certificates</a></li>
+                            <li class="myacc"><a href="#" ><i class="fa fa-user me-2"></i>My Acoount <i class="fa-solid fa-chevron-down fs-8"></i></a>
+                                <ul class="submenutop">
+                                    <li><a href="#">Check Out</a></li>
+                                    <li><a href="#">Sign in</a></li>
+                                    <li><a href="#">Register</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-center d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-3">
+                        <img src="img/logo.webp" alt="">
+                    </div>
+                    <div class="col-5">
+                        <div class="input-group">
+                            <input type="text">
+                            <button><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="con">
+                            <i class="fa-solid fa-headset"></i>
+                            <div class="co">
+                                <div class="one"><span>Call us now:</span> <i class="num"> (+84) 4567 421 978</i></div>
+                                <div class="two">
+                                    <span>Email:</span><a href="#">contact@revo.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-end d-flex">
+            <div class="container d-flex">
+            <ul class="menuleft">
+                <li><a href="#" class="nav">HOME <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#" class="nav">SHOP <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#" class="nav">COLLECTION <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#" class="nav">ACCESSORIES <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#" class="nav">LAYOUT <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#" class="nav">BLOG <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#" class="nav">BONUS PAGE <i class="fa-solid fa-chevron-down"></i></a></li>
+            </ul>
+            <div class="right d-flex justify-content-between">
+                <div class="ham">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- sec1 start -->
+    <div class="sec1">
+        <div class="container">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/slider1.jpg"></div>
+        <div class="swiper-slide"><img src="img/slider2.jpg"></div>
+        <div class="swiper-slide"><img src="img/slider3.jpg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </div>
+    </div>
+    <!-- sec2 start -->
+    <div class="sec2">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-flex align-items-center justify-content-center"><img src="img/img1.jpg" alt=""></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-flex align-items-center justify-content-center"><img src="img/img2.jpg" alt=""></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-flex align-items-center justify-content-center"><img src="img/img3.jpg" alt=""></div>
+                </div>
+        </div>
+    </div>
+    <!-- sec3 start -->
+    <div class="sec3">
+        <div class="container">
+            <h3 class="title"><div>BEST SELLERS</div>
+            <div class="line b">
+                <div class="line"></div>
+            </div>
+            <div class="btn-group ">
+                <div class="icon11" style="border: 1px solid;width: 30px;height: 30px; border-radius: 50%;display:flex; align-items: center; justify-content: center;"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="icon12" style="border: 1px solid;width: 30px;height: 30px; border-radius: 50%;display:flex; align-items: center; justify-content: center;"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            </h3>
+            <div class="main">
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="img/one.jpg" alt="">
+                        <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <img src="img/three.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <img src="img/four.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <img src="img/five.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <img src="img/six.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="sec4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 h"><div data-aos="fade-right"><img src="img/bg1.jpg" alt=""></div></div>
+                <div class="col-6 h"><div data-aos="fade-left"><img src="img/bg-2.jpg" alt=""></div></div>
+            </div>
+        </div>
+    </div>
+    <!-- sec5 -->
+    <div class="sec5">
+        <div class="container">
+            <h3 class="title"><div>NEW PRODUCTS</div>
+            <div class="line b">
+                <div class="line"></div>
+            </div>
+            <div class="btn-group ">
+                <div class="icon1"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="icon2"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            </h3>
+            <div class="main">
+                <div class="swiper mySwiper1 mySwiper11">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/four.jpg" alt="">
+                        <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/i.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/h.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/three.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/l.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/six.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/one.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- sec6 -->
+    <div class="sec6">
+        <div class="container">
+            <h3 class="title"><div>FEATURED CATEGORIES</div>
+                <div class="line b">
+                    <div class="line"></div>
+                </div>
+                </h3>
+                <div class="row p-0 m-0"> 
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  aa d-flex align-items-center justify-content-center" ><div class="hh d-flex flex-column"><img src="img/1.jpg" alt=""><div class="txt d-flex align-items-center justify-content-center fw-1">WATCHES</div></div></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  aa d-flex align-items-center justify-content-center" ><div class="hh d-flex flex-column"><img src="img/2.jpg" alt=""><div class="txt d-flex align-items-center justify-content-center fw-1">BAGS</div></div></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  aa d-flex align-items-center justify-content-center" ><div class="hh d-flex flex-column"><img src="img/3.jpg" alt=""><div class="txt d-flex align-items-center justify-content-center fw-1">ACCESSORIES</div></div></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  aa d-flex align-items-center justify-content-center" ><div class="hh d-flex flex-column"><img src="img/4.jpg" alt=""><div class="txt d-flex align-items-center justify-content-center fw-1">SHOES</div></div></div>
+                </div>
+        </div>
+    </div>
+    <!-- sec7 -->
+    <div class="sec7">
+        <div class="container">
+            <h3 class="title"><div>FEATURED PRODUCTS</div>
+            <div class="line b">
+                <div class="line"></div>
+            </div>
+            <div class="btn-group ">
+                <div class="icon1"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="icon2"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            </h3>
+            <div class="main">
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/four.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/i.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/h.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/three.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/l.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/six.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+                      <div class="swiper-slide"><img src="img/one.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                        <div class="icon d-flex">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price d-flex">
+                            <span class="pricesub">$800.00</span>
+                            <span class="und">$960.00</span>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                          <img src="img/two.jpg" alt="">
+                          <a href="#">Patheon commodo  tempus turpis</a>
+                          <div class="icon d-flex">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="price d-flex">
+                              <span class="pricesub">$800.00</span>
+                              <span class="und">$960.00</span>
+                          </div>
+                    </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            <div class="img">
+                <img src="img/iii.jpg" alt="" style="max-width: 100%;">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <!-- sec8 -->
+    <div class="sec8">
+        <h3 class="title"><div>FROM OUR BLOG</div>
+            <div class="line b">
+                <div class="line"></div>
+            </div>
+            <div class="btn-group ">
+                <div class="icon21" style="border: 1px solid;width: 30px;height: 30px; border-radius: 50%;display:flex; align-items: center; justify-content: center;"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="icon22" style="border: 1px solid;width: 30px;height: 30px; border-radius: 50%;display:flex; align-items: center; justify-content: center;"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            </h3>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide "><img src="img/a.jpg" alt="">
+                <a href="#" class="pt-2">Mauros dan cosmo iriure dolor</a>
+                <div class="icon d-flex"><i class="fa-solid fa-user  mt-2" style="font-size: 10px;"><span style="letter-spacing: 2px; margin-top: 5px;">bigecommerce </span> </i><i class="fa-solid fa-clock ms-4" style="font-size: 10px;margin-top:10px;"> Apr 8th 2018  </i></div>
+                <hr style="height: 1px; width: 100%;">
+                <div class="read d-flex"><a href="#" style="text-decoration: none; color: #0c6f8d; margin-left: 8px;"><i class="fa-solid fa-caret-right" style="color: #0c6f8d; font-size: 16px;"></i>Read more</a></div>
+            </div>
+              <div class="swiper-slide "><img src="img/b.jpg" alt="">
+                <a href="#" class="pt-2">Mauros dan cosmo iriure dolor</a>
+                <div class="icon d-flex"><i class="fa-solid fa-user  mt-2" style="font-size: 10px;"><span style="letter-spacing: 2px; margin-top: 5px;">bigecommerce </span> </i><i class="fa-solid fa-clock ms-4" style="font-size: 10px;margin-top:10px;"> Apr 8th 2018  </i></div>
+                <hr style="height: 1px; width: 100%;">
+                <div class="read d-flex"><a href="#" style="text-decoration: none; color: #0c6f8d; margin-left: 8px;"><i class="fa-solid fa-caret-right" style="color: #0c6f8d; font-size: 16px;"></i>Read more</a></div>
+            </div>
+              <div class="swiper-slide "><img src="img/c.jpg" alt="">
+                <a href="#" class="pt-2">Mauros dan cosmo iriure dolor</a>
+                <div class="icon d-flex"><i class="fa-solid fa-user  mt-2" style="font-size: 10px;"><span style="letter-spacing: 2px; margin-top: 5px;">bigecommerce </span> </i><i class="fa-solid fa-clock ms-4" style="font-size: 10px;margin-top:10px;"> Apr 8th 2018  </i></div>
+                <hr style="height: 1px; width: 100%;">
+                <div class="read d-flex"><a href="#" style="text-decoration: none; color: #0c6f8d; margin-left: 8px;"><i class="fa-solid fa-caret-right" style="color: #0c6f8d; font-size: 16px;"></i>Read more</a></div>
+            </div>
+              <div class="swiper-slide "><img src="img/d.jpg" alt="">
+                <a href="#" class="pt-2">Mauros dan cosmo iriure dolor</a>
+                <div class="icon d-flex"><i class="fa-solid fa-user  mt-2" style="font-size: 10px;"><span style="letter-spacing: 2px; margin-top: 5px;">bigecommerce </span> </i><i class="fa-solid fa-clock ms-4" style="font-size: 10px;margin-top:10px;"> Apr 8th 2018  </i></div>
+                <hr style="height: 1px; width: 100%;">
+                <div class="read d-flex"><a href="#" style="text-decoration: none; color: #0c6f8d; margin-left: 8px;"><i class="fa-solid fa-caret-right" style="color: #0c6f8d; font-size: 16px;"></i>Read more</a></div>
+            </div>
+              <div class="swiper-slide "><img src="img/e.jpg" alt="">
+                <a href="#" class="pt-2">Mauros dan cosmo iriure dolor</a>
+                <div class="icon d-flex"><i class="fa-solid fa-user  mt-2" style="font-size: 10px;"><span style="letter-spacing: 2px; margin-top: 5px;">bigecommerce </span> </i><i class="fa-solid fa-clock ms-4" style="font-size: 10px;margin-top:10px;"> Apr 8th 2018  </i></div>
+                <hr style="height: 1px; width: 100%;">
+                <div class="read d-flex"><a href="#" style="text-decoration: none; color: #0c6f8d; margin-left: 8px;"><i class="fa-solid fa-caret-right" style="color: #0c6f8d; font-size: 16px;"></i>Read more</a></div>
+            </div>
+              <div class="swiper-slide "><img src="img/f.jpg" alt="">
+                <a href="#" class="pt-2">Mauros dan cosmo iriure dolor</a>
+                <div class="icon d-flex"><i class="fa-solid fa-user  mt-2" style="font-size: 10px;"><span style="letter-spacing: 2px; margin-top: 5px;">bigecommerce </span> </i><i class="fa-solid fa-clock ms-4" style="font-size: 10px;margin-top:10px;"> Apr 8th 2018  </i></div>
+                <hr style="height: 1px; width: 100%;">
+                <div class="read d-flex"><a href="#" style="text-decoration: none; color: #0c6f8d; margin-left: 8px;"><i class="fa-solid fa-caret-right" style="color: #0c6f8d; font-size: 16px;"></i>Read more</a></div>
+            </div>
+            </div>
+ 
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="sec9">
+    <div class="container">
+    <div class="swiper mySwiper9">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/1.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/5.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/2.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/3.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/6.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/5.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/4.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/3.webp" alt=""></div>
+          <div class="swiper-slide"><img src="img/2.webp" alt=""></div>
+        </div>
+        <div class="swiper-button-next" style="color: #c0b3b3; margin-left: 400px;"></div>
+        <div class="swiper-button-prev" style="color: #c0b3b3;margin-right: 400px"></div>
+      </div>
+    </div>
+</div>
+<div class="sec10">
+    <div class="footer-top d-flex align-items-center justify-content-center flex-column">
+        <h3 class="text-white" style="font-size: 20px;font-weight: 600; margin-bottom: 20px;">Sign up for newsletter </h3>
+        <div class="input-group">
+            <input type="text">
+            <button><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+        </div>
+    </div>
+    <div class="footer-center d-flex flex-column">
+        <div class="container">
+            <div class="title d-flex align-items-center justify-content-center flex-column">
+                <img src="img/iiii'.webp" alt="">
+                <p class="" style="text-align: center; margin-top: 25px; color: #7d7d7d; line-height: 20px;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of<br>
+                    classical Latin literature from 45 BC, making it over 2000 years old.
+                </p>
+            </div>
+            <hr class="" style="color: #c0b3b3;">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-2 d-flex flex-column">
+                    <h5 class="text-white txt" style="cursor: pointer;">OUR SHOPS</h5>
+                    <ul>
+                        <li><a href="#" class="aa">Product Support</a></li>
+                        <li><a href="#" class="aa">PC Setup and Support</a></li>
+                        <li><a href="#" class="aa">Services</a></li>
+                        <li><a href="#" class="aa">Term & Condition</a></li>
+                        <li><a href="#" class="aa">Privacy policy</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-2 d-flex flex-column  ">
+                    <h5 class="text-white txt" style="cursor: pointer;">INFORMATION</h5>
+                    <ul>
+                        <li><a href="" class="aa">Layout</a></li>
+                        <li><a href="" class="aa">Blog</a></li>
+                        <li><a href="" class="aa">Bonus Page</a></li>
+                        <li><a href="" class="aa">sitemap</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-2 d-flex flex-column  ">
+                    <h5 class="text-white txt" style="cursor: pointer;">BRANDS</h5>
+                    <ul>
+                        <li><a href="" class="aa">Commond good</a></li>
+                        <li><a href="" class="aa">OFS</a></li>
+                        <li><a href="" class="aa">View All</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-2 d-flex flex-column ">
+                    <h5 class="text-white txt" style="cursor: pointer;">ALL CATEGORIES</h5>
+                    <ul>
+                        <li><a href="" class="aa">Shop</a></li>
+                        <li><a href="" class="aa">Collection</a></li>
+                        <li><a href="" class="aa">Accessories</a></li>
+                        <li><a href="" class="aa">View All</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-4 d-flex flex-column ">
+                    <h5 class="text-white txt ;" style="cursor: pointer;"> CONTACT US</h5>
+                    <div class="one d-flex"><i class="fa fa-map-marker"></i><div class="adress">Addresses : 685 Market Street San Francisco, CA 94105</div></div>
+                    <div class="one d-flex"><i class="fa fa-phone"></i><div class="adress">Call us now : Call us at (+84) 4567 421 978</div></div>
+                    <div class="one d-flex"><i class="fa fa-envelope"></i><div class="adress">Email : <a href="#">contact@revo.com</a></div></div>
+                    <div class="four d-flex"><img src="img/q.webp" alt=""><img src="img/a.webp" alt="" class="h"><img src="img/z.webp" alt="" class="h"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom d-flex align-items-center justify-content-center">
+        <div class="foot text-white text-align-center d-flex align-items-center justify-content-center" style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >© 2022 Ecommerce SB Revo - Home3 Powered by BigCommerce. Designed by Revotheme.com</div>
+        <div class="foot1 d-flex">
+        </div>
+    </div>
+</div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

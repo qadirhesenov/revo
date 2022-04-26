@@ -1,0 +1,113 @@
+.body,html{
+    overflow-x:hidden ;
+}
+.sec7{
+    width: auto;
+    height: auto;
+    .title{
+        height: 90px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        div{
+            font-family: sans-serif;
+            font-weight: 600;
+            color: #000;
+        }
+        .line.b{
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            .line{
+                width: 140px;
+                height: 2px;
+                margin-top: 20px;
+                background-color: #095b09;
+                display: flex;
+            }   
+        }
+        .btn-group{
+            width: 100%;
+            height: 20px;
+            display: flex;
+            justify-content: end;
+            .icon1{
+                width: 30px;
+                height: 30px;
+                border: 1px solid;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .icon2{
+                width: 30px;
+                height: 30px;
+                border: 1px solid;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+    .main{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        overflow-x: hidden;
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+    
+          .swiper-slide {
+             
+            border: 1px solid #e8e8e8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: #999;
+                font-weight: 500;
+                text-align: center;
+            }
+            .icon{
+                i{
+                    color: #999;
+                    font-size: 11px;
+                    margin-top: 10px;
+                }
+            }
+            .price{
+                margin-top: 10px;
+                margin-bottom: 25px;
+                .pricesub{
+                    color: #0f8d83;
+                    font-weight: 600;
+                }
+                .und{
+                    text-decoration: line-through;
+                    font-size:12px ;
+                    font-style: italic;
+                    margin-left: 10px;
+                    color: #999;
+                }
+            }
+          }
+    
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+}
+}

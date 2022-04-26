@@ -1,0 +1,12 @@
+.sec2{
+    width: auto;
+    display: flex;
+    .container{
+        width: 100%;
+        img{
+            max-width: 100%;
+            min-width: 100%;
+            display: block;
+        }
+    }
+}
